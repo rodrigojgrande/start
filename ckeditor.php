@@ -45,7 +45,9 @@ $description = '<meta charset="utf-8" name="description" content="">';
 	</header>
 
 	<main>
-		
+	<div id="editor">
+        <p>This is some sample content.</p>
+	</div>
 	</main>
 	
 
@@ -57,13 +59,24 @@ $description = '<meta charset="utf-8" name="description" content="">';
 	<!-- JavaScript Bundle with Popper -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- CKeditor -->
+	<!-- CKeditor -->
 	<script src="https://cdn.ckeditor.com/ckeditor5/29.0.0/classic/ckeditor.js"></script>
 
 	<!-- Meus -->
 	<script type="text/javascript">
 		$('.dropdown-toggle').dropdown()
 	</script>
+
+	<!-- CKeditor -->
+	<script>
+		ClassicEditor
+			.create(document.querySelector('#editor'))
+			.catch(error => {
+				console.error(error);
+			});
+	</script>
+
+
 
 </body>
 </html>
