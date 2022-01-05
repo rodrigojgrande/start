@@ -23,7 +23,7 @@ $description = '<meta charset="utf-8" name="description" content="">';
 	<script src="https://kit.fontawesome.com/555bcd85d4.js"></script>
 
 	<!-- CSS only -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 	<!-- Icon -->
 	<link rel="icon" href="_ico/favicon.ico">
@@ -55,7 +55,7 @@ $description = '<meta charset="utf-8" name="description" content="">';
 
 
 	<!-- JavaScript Bundle with Popper -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- CKeditor -->
 	<script src="https://cdn.ckeditor.com/ckeditor5/29.0.0/classic/ckeditor.js"></script>
